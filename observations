@@ -1,0 +1,6 @@
+##observations
+
+* MobileNetV2 hits plateau with validation accuracy. training accuracy increases but model might go into overfitting.because validation data fluctuates alot 
+* on the good part mobile net V2 has small weight size(9MB)as opposed to MobileNetV1 (approx 30MB) so there is room for adding manual FC layers.
+* change for optimizers doesn't have any effect on the performance on validation accuracy(files ending with _first_run have the performance for first 15 epochs)
+* currently the best model we have is trained for almost 45 epochs on MobileNetV1 with .91 validation accuracy(weights are saved in drive and will be uploaded to github) 
